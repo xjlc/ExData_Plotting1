@@ -1,7 +1,7 @@
 # load data
 source("project1.R")
 
-# create first plot: a histogram of Global_active_power
+# create second plot
 png(file="plot2.png", bg = "transparent", width=480, height=480)
 plot(hh2$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)", xaxt="n")
 # there must be a less clumsy way than this...

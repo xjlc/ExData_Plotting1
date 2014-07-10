@@ -1,7 +1,7 @@
 # load data
 source("project1.R")
 
-# create first plot: a histogram of Global_active_power
+# create third plot
 png(file="plot3.png", bg = "transparent", width=480, height=480)
 plot(hh2$Sub_metering_1, type="l", xlab="", ylab="Energy sub metering", xaxt="n", col="black")
 lines(hh2$Sub_metering_2, col="red")
